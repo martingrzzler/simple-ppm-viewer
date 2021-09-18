@@ -2,6 +2,10 @@
   "name": "simple-ppm-viewer",
 	"displayName": "Simple PPM Viewer",
 	"publisher": "martingrzzler",
+		"repository": {
+		"type": "git",
+		"url": "https://github.com/martingrzzler/simple-ppm-viewer"
+	},
 	"description": "Display PPM images within vscode.",
 	"version": "0.0.1",
 	"engines": {
