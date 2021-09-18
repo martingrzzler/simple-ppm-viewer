@@ -1,6 +1,7 @@
 {
   "name": "simple-ppm-viewer",
-	"displayName": "Simple PPm Viewer",
+	"displayName": "Simple PPM Viewer",
+	"publisher": "martingrzzler",
 	"description": "Display PPM images within vscode.",
 	"version": "0.0.1",
 	"engines": {
@@ -17,7 +18,7 @@
 		"customEditors": [
 			{
 				"viewType": "simple-ppm-viewer.imagepreview",
-				"displayName": "Image Preview",
+				"displayName": "PPM Image Preview",
 				"selector": [
 					{
 						"filenamePattern": "*.ppm"

@@ -57,7 +57,7 @@ export class PreviewProvider
             webviewPanel.webview.html = generateHTML(imageData);
         } catch (err: any) {
             vscode.window.showErrorMessage(err.message);
-            webviewPanel.webview.html = "ERROR❌: " + err.message;
+            webviewPanel.webview.html = "❌ERROR: " + err.message;
         }
     }
 }
